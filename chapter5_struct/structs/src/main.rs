@@ -9,12 +9,13 @@ impl Rectangle {
     }
 }
 fn main() {
-    let rect1 = Rectangle {
+    let meowmeow = Rectangle {
         width: 30,
         height: 50,
     };
-    print!("{:#?}", rect1);
+//    print!("{:#?}", meowmeow);
+    dbg!(&meowmeow);
     println!(
-        "\nThe area of the rectangleis {} square pixels.", rect1.area()
+        "\nThe area of the rectangleis {} square pixels.", meowmeow.area()
     );
 }
