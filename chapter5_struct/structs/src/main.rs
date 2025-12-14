@@ -14,7 +14,7 @@ fn main() {
         height: 50,
     };
 //    print!("{:#?}", meowmeow);
-    dbg!(&meowmeow);
+    dbg!(meowmeow);
     println!(
         "\nThe area of the rectangleis {} square pixels.", meowmeow.area()
     );
