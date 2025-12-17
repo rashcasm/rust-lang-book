@@ -1,1 +1,0 @@
-this is covered under https://github.com/rashcasm/rust-lang-book/tree/main/rustlings/exercises/13_error_handling 
