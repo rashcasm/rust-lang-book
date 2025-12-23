@@ -1,10 +1,10 @@
+
+
 fn main() {
-    let list = vec![1, 2, 3];
-    println!("Before defining closure: {list:?}");
+    fn  add_one_v1   (x: u32) -> u32 { x + 1 }
+    let add_one_v4 = |x|x + 1  ;
 
-    let only_borrows = || println!("From closure: {list:?}");
-
-    println!("Before calling closure: {list:?}");
-    only_borrows();
-    println!("After calling closure: {list:?}");
+    println!("add_one_v1: {}", add_one_v1(5));
+    println!("add_one_v4: {}", add_one_v4(5));
 }
+
