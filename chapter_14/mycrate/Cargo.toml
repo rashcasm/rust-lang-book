@@ -1,0 +1,14 @@
+[package]
+name = "rashmin_rustbook_ch14"
+version = "0.1.1"
+edition = "2024"
+authors = ["Rashmin"]
+description = "Rust Programming Language Book - Chapter 14 Code"
+license = "MIT"
+[dependencies]
+
+[profile.dev]
+opt-level = 1
+
+[profile.release]
+opt-level = 3
